@@ -14,6 +14,7 @@ body{
     display:flex;
     font-size:200%;
     justify-content: space-around;
+    padding-top:10px;
 }
 
 div{
@@ -28,9 +29,10 @@ img{
 #mid{
     display:flex;
     justify-content:center;
-    /* background-image: url("https://www.wwu.edu/files/styles/header_medium_large_screens/public/2021-10/AdobeStock_233473113.jpeg?itok=8sDK5WwW"); */
     background-color: #f2f2f2;
     padding:30px;
+    padding-top:120px;
+    padding-bottom:120px;
 }
 
 #portrait{
@@ -43,13 +45,30 @@ h1{
 }
 
 #desc{
-    padding-top:20px;
     width:400px;
 }
 
+#desc p{
+    font-size: 120%;
+}
+
 #button{
+    display: flex;
+}
+
+#read{
     font-weight: bold;
     background-color:lightblue;
+    width:25%;
+    padding:1%;
+    margin-top:8%;
+    display:flex;
+    justify-content: center;
+}
+
+#link{
+    font-weight: bold;
+    background-color:lightgreen;
     width:25%;
     padding:1%;
     margin-top:8%;
@@ -76,10 +95,24 @@ h1{
     margin-top:10px;
 }
 
+#org_txt{
+    background-color: white;
+    padding-top:15px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
 footer{
     background-color: #f2f2f2;
     margin-left:10px;
     margin-right:10px;
     padding:10px;
     text-align:center;
+}
+
+#assoc{
+    display: flex;
+    justify-content: center;
 }
