@@ -22,6 +22,11 @@ div{
     margin-right:10px;
 }
 
+a{
+    text-decoration: none;
+    color:black;
+}
+
 img{
     width: 300px;
 }
