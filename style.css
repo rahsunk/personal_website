@@ -1,3 +1,85 @@
-h1{
+body{
+    background-color: bisque;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-top:10px;
+}
+
+#nav{
+    display:flex;
+    font-size:200%;
+    justify-content: space-around;
+}
+
+div{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+img{
+    width: 300px;
+}
+
+#mid{
+    display:flex;
+    justify-content:center;
+    /* background-image: url("https://www.wwu.edu/files/styles/header_medium_large_screens/public/2021-10/AdobeStock_233473113.jpeg?itok=8sDK5WwW"); */
+    background-color: #f2f2f2;
+    padding:30px;
+}
+
+#portrait{
+    width: 200px;
+    border:4px brown solid;
+}
+
+h1{
+    font-size:40px;
+}
+
+#desc{
+    padding-top:20px;
+    width:400px;
+}
+
+#button{
+    font-weight: bold;
+    background-color:lightblue;
+    width:25%;
+    padding:1%;
+    margin-top:8%;
+    display:flex;
+    justify-content: center;
+}
+
+#orgs{
+    background-color: white;
+}
+
+#organizations{
+    display:flex;
+    justify-content: center;
+}
+
+#images{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#asc{
+    margin-top:10px;
+}
+
+footer{
+    background-color: #f2f2f2;
+    margin-left:10px;
+    margin-right:10px;
+    padding:10px;
+    text-align:center;
 }
