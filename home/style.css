@@ -22,7 +22,7 @@ div{
     margin-right:10px;
 }
 
-a{
+.noline{
     text-decoration: none;
     color:black;
 }
@@ -50,7 +50,7 @@ h1{
 }
 
 #desc{
-    width:400px;
+    width:450px;
 }
 
 #desc p{
@@ -115,9 +115,4 @@ footer{
     margin-right:10px;
     padding:10px;
     text-align:center;
-}
-
-#assoc{
-    display: flex;
-    justify-content: center;
 }
