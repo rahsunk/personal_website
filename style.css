@@ -258,4 +258,8 @@ footer{
     #si{
         order:6
     }
+
+    footer{
+        font-size: 50%;
+    }
 }
