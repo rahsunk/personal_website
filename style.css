@@ -61,27 +61,31 @@ h1{
     display: flex;
 }
 
-#read{
+#read button{
     font-weight: bold;
     background-color:lightblue;
-    width:25%;
-    padding:1%;
-    margin-top:8%;
+    padding:20px;
+    margin-top:20px;
+    border-radius: 15px;
     display:flex;
     justify-content: center;
 }
 
-#link{
+#link button{
     font-weight: bold;
     background-color:lightgreen;
-    width:25%;
-    padding:1%;
-    margin-top:8%;
+    padding:20px;
+    margin-top:20px;
+    border-radius:15px;
     display:flex;
     justify-content: center;
 }
 
-#orgs{
+#org_container{
+    margin:0px;
+}
+
+#organizations,#org_info{
     background-color: white;
 }
 
@@ -90,23 +94,31 @@ h1{
     justify-content: center;
 }
 
-#images{
+#org_info{
+    background-color: white;
+    padding-top:15px;
+    padding-bottom: 20px;
+    padding:20px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.images{
+    margin-left:150px;
+    flex: 1 20%;
+    justify-content: center;
+}
+
+.txt{
+    justify-content: center;
+    margin-top:10px;
 }
 
 #asc{
     margin-top:10px;
-}
-
-#org_txt{
-    background-color: white;
-    padding-top:15px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
 }
 
 footer{
@@ -118,74 +130,133 @@ footer{
 }
 
 @media(max-width:1030px){
-    
-    html{
+    body{
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    
-    body{
-        background-color: aqua;
     }
 
     #header{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width:100%;
-        /* padding-bottom: 12px; */
     }
 
-    #logo{
+    #header #logo a{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #logo img, .images img{
+        width:75%;
+    }
+    
+    #nav{
+        margin:0px;
+    }
+
+
+    #nav div{
+        font-size:45%;
+        font-weight: bold;
     }
 
     #mid{
-        display: flex;
+        display:flex;
         flex-direction: column;
-        width: 77%;
-        
+        align-items: center;
+        padding:0px;
+        padding-top:60px;
+        padding-bottom:30px;
     }
 
-    #pic{
-        display: flex;
-        justify-content: center;
+    #txt{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #desc{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:80%;
+        text-align:center;
+    }
+
+    #name{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width:50%
     }
 
     h1{
-        text-align: center;
-    }
-
-    p{
-        text-align: center;
-        margin-right: 50px;
+        font-size: 30px;
     }
 
     #button{
         display: flex;
-        justify-content: flex-start;
-        width:150%;
+        flex-direction: column;
     }
 
-    #orgs{
-        padding-left:80px;
-        padding-right:80px;
-        width:60%
-    }
-
-    #images{
+    #org_container{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        margin:0px;
     }
 
-    #images img{
-        width:74%
+    .images, .images a{
+        display: flex;
+        flex-direction: column;
+        margin-left:0px;
+        align-items: center;
+        padding-bottom:10px;
     }
 
-    div{
-        
+    #rise{
+        width:100%;
+    }
+
+    #rise,#asc{
+        margin-top:20px;
+    }
+
+    #org_info div{
+        text-align: center;
+        font-size:85%;
+        margin:0px;
+    }
+
+    #org_info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #tsa{
+        order: 1;
+    }
+
+    #hs{
+        order:2
+    }
+
+    #rise{
+        order:3
+    }
+
+    #shore{
+        order:4
+    }
+
+    #asc{
+        order:5
+    }
+
+    #si{
+        order:6
     }
 }
