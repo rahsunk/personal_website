@@ -116,3 +116,76 @@ footer{
     padding:10px;
     text-align:center;
 }
+
+@media(max-width:1030px){
+    
+    html{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    body{
+        background-color: aqua;
+    }
+
+    #header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        /* padding-bottom: 12px; */
+    }
+
+    #logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    #mid{
+        display: flex;
+        flex-direction: column;
+        width: 77%;
+        
+    }
+
+    #pic{
+        display: flex;
+        justify-content: center;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+        margin-right: 50px;
+    }
+
+    #button{
+        display: flex;
+        justify-content: flex-start;
+        width:150%;
+    }
+
+    #orgs{
+        padding-left:80px;
+        padding-right:80px;
+        width:60%
+    }
+
+    #images{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #images img{
+        width:74%
+    }
+
+    div{
+        
+    }
+}
