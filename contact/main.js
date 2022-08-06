@@ -40,6 +40,9 @@ for(let i=0;i<data.length;i++){
     
     let newPic=document.createElement('img')
     newPic.src="images/"+data[i].picture+".jpg"
+    newPic.style.width="200px"
+    newPic.style.border="2px black solid"
+    newPic.style.marginLeft="20px"
     
     let txtDiv=document.createElement('div')
     txtDiv.style.display="flex"
@@ -80,7 +83,23 @@ for(let i=0;i<data.length;i++){
 
     newWeb.appendChild(newSite)
     picDiv.appendChild(newPic)
-    txtDiv.append(newName,newMail,newLink,newGit,newWeb)
+    
+    if(data[i].name!=""){
+        txtDiv.append(newName)
+    }
+    if(data[i].email!=""){
+        txtDiv.append(newMail)
+    }
+    if(data[i].link!=""){
+        txtDiv.append(newLink)
+    }
+    if(data[i].github!=""){
+        txtDiv.append(newGit)
+    }
+    if(data[i].website!=""){
+        txtDiv.append(newWeb)
+    }
+
     newDiv.append(picDiv,txtDiv)
     list.appendChild(newDiv)
     
