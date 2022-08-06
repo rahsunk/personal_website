@@ -17,6 +17,7 @@ for(let i=0;i<navLines.length;i++){
 
 const home=document.getElementById('home')
 home.style.fontWeight="bold"
+home.style.backgroundColor="#f2f2f2"
 
 const buttonLines=document.getElementsByClassName('no_button_line')
 

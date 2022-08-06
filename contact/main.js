@@ -17,6 +17,7 @@ for(let i=0;i<navLines.length;i++){
 
 const contact=document.getElementById('contact')
 contact.style.fontWeight="bold"
+contact.style.backgroundColor="#f2f2f2"
 
 const list=document.getElementById('list')
 
