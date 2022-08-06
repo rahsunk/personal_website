@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>About Me</title>
 </head>
@@ -15,19 +16,26 @@
         
         <div id="nav">
             <a class="noline" href="https://rahsunk.github.io"><div>Home</div></a>
-            <a class="noline" href="https://rahsunk.github.io/about/"><div>About</div></a>
+            <a id="about" class="noline" href="https://rahsunk.github.io/about/"><div>About</div></a>
+            <a class="noline" href=""><div>Projects</div></a>
             <a class="noline" target="_blank" href="https://drive.google.com/file/d/1UB2TwMBG8Dhp3qk_Qy8DgMxDpbTpyaKm/view?usp=sharing"><div>Resume</div></a>
-            <a class="noline" href=""><div>Contact</div></a>
+            <a class="noline" href="https://rahsunk.github.io/contact/"><div>Contact</div></a>
         </div>
     </div>
+
     <div id="middle">
         <div id="left">
-            <img src="images/portrait.jpg">
-            <img src="images/math.jpg">
+            <img id="portrait" src="images/portrait.jpg">
+    
+            <div id="images">
+                <img src="images/math.jpg">
+                <img src="images/environment.jpg">
+                <img src="images/compsci.jpg">
+            </div>
         </div>
         
         <div id="mid">
-            <div id="about">
+            <div id="about_me">
                 <h1>About Me</h1>
             </div>
             
@@ -54,10 +62,6 @@
             </div>
         </div>
 
-        <div id="right">
-            <img src="images/environment.jpg">
-            <img src="images/compsci.jpg">
-        </div>
     </div>
     
 </body>
