@@ -17,3 +17,4 @@ for(let i=0;i<navLines.length;i++){
 
 const about=document.getElementById('about')
 about.style.fontWeight="bold"
+about.style.backgroundColor="#f2f2f2"
