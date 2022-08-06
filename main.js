@@ -27,13 +27,4 @@ for(let i=0;i<buttonLines.length;i++){
     buttonLines[i].onmouseout=function(){
         buttonLines[i].style.opacity=1
     }
-    if(i<1){
-        buttonLines[i].onmousedown=function(){
-            buttonLines[i].style.backgroundColor="gray"
-        }
-        buttonLines[i].style.onmouseup=function(){
-            buttonLines[i].style.backgroundColor="lightblue"
-        }
-    }
-    
 }
