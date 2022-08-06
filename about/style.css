@@ -35,7 +35,7 @@ div{
     align-items: center;
 }
 
-#portrait{
+#portrait img{
     width: 200px;
     border:4px brown solid;
     margin:20px;
