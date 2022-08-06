@@ -66,8 +66,13 @@ h1{
     margin:0px;
 }
 
-#associates,#org_info{
+#associates{
     background-color: white;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
 }
 
 #associates{
@@ -75,7 +80,7 @@ h1{
     justify-content: center;
 }
 
-#org_info{
+/* #org_info{
     background-color: white;
     padding-top:15px;
     padding-bottom: 20px;
@@ -100,7 +105,7 @@ h1{
 
 #asc{
     margin-top:10px;
-}
+} */
 
 footer{
     background-color: #f2f2f2;
