@@ -53,6 +53,16 @@ div{
     border: 2px black solid;
 }
 
+button{
+    border:none;
+    margin-top:10px;
+    padding:10px;
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    background-color: #800020;
+}
+
 h1{
     margin-bottom:100px;
 }
@@ -70,7 +80,6 @@ img{
     background-color: #f2f2f2;
     display: flex;
     justify-content: center;
-    
 }
 
 #width{
