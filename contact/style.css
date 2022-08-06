@@ -81,9 +81,7 @@ h1{
     margin-left: 20px;
 }
 
-.button_pos{
-    align-self: center;
-}
+
 
 footer{
     background-color: #f2f2f2;
@@ -189,6 +187,10 @@ footer{
 
     .button_opacity{
         margin-top: 10px;
+    }
+    
+    .button_pos{
+    align-self: center;
     }
     
     footer{
