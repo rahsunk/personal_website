@@ -27,6 +27,11 @@ div{
     color:black;
 }
 
+.no_button_line{
+    text-decoration: none;
+    color:black
+}
+
 img{
     width: 300px;
 }
@@ -36,8 +41,8 @@ img{
     justify-content:center;
     background-color: #f2f2f2;
     padding:30px;
-    padding-top:120px;
-    padding-bottom:120px;
+    padding-top:60px;
+    padding-bottom:60px;
 }
 
 #portrait{
@@ -50,46 +55,22 @@ h1{
 }
 
 #desc{
-    width:450px;
+    margin: 0px;
 }
 
-#desc p{
-    font-size: 120%;
+#desc div{
+    margin-bottom: 20px;
 }
 
-#button{
-    display: flex;
-}
-
-#read button{
-    font-weight: bold;
-    background-color:lightblue;
-    padding:20px;
-    margin-top:20px;
-    border-radius: 15px;
-    display:flex;
-    justify-content: center;
-}
-
-#link button{
-    font-weight: bold;
-    background-color:lightgreen;
-    padding:20px;
-    margin-top:20px;
-    border-radius:15px;
-    display:flex;
-    justify-content: center;
-}
-
-#org_container{
+#assoc_container{
     margin:0px;
 }
 
-#organizations,#org_info{
+#associates,#org_info{
     background-color: white;
 }
 
-#organizations{
+#associates{
     display:flex;
     justify-content: center;
 }
@@ -196,18 +177,13 @@ footer{
         font-size: 30px;
     }
 
-    #button{
-        display: flex;
-        flex-direction: column;
-    }
-
-    #org_container{
+    #assoc_container{
         display: flex;
         flex-direction: column;
         margin:0px;
     }
 
-    .images, .images a{
+    /* .images, .images a{
         display: flex;
         flex-direction: column;
         margin-left:0px;
@@ -257,7 +233,7 @@ footer{
 
     #si{
         order:6
-    }
+    } */
 
     footer{
         display: flex;
