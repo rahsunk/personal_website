@@ -68,6 +68,8 @@ h1{
 
 #associates{
     background-color: white;
+    display:flex;
+    justify-content: center;
 }
 
 #list{
@@ -75,37 +77,13 @@ h1{
     flex-direction: column;
 }
 
-#associates{
-    display:flex;
-    justify-content: center;
+.new_pic{
+    margin-left: 20px;
 }
 
-/* #org_info{
-    background-color: white;
-    padding-top:15px;
-    padding-bottom: 20px;
-    padding:20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.button_pos{
+    align-self: center;
 }
-
-.images{
-    margin-left:150px;
-    flex: 1 20%;
-    justify-content: center;
-}
-
-.txt{
-    justify-content: center;
-    margin-top:10px;
-}
-
-#asc{
-    margin-top:10px;
-} */
 
 footer{
     background-color: #f2f2f2;
@@ -183,63 +161,36 @@ footer{
     }
 
     #assoc_container{
+        background-color: rgba(128,0,32,0.5);
         display: flex;
         flex-direction: column;
+        padding-bottom:5px;
+        padding-top:5px;
         margin:0px;
+        width:93.5%
     }
-
-    /* .images, .images a{
-        display: flex;
-        flex-direction: column;
+    
+    .new_pic{
         margin-left:0px;
-        align-items: center;
-        padding-bottom:10px;
+        border: 10px solid black;
     }
-
-    #rise{
-        width:100%;
-    }
-
-    #rise,#asc{
-        margin-top:20px;
-    }
-
-    #org_info div{
-        text-align: center;
-        font-size:85%;
-        margin:0px;
-    }
-
-    #org_info{
+    
+    .new_div{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        align-items: center;
+        padding:20px
     }
 
-    #tsa{
-        order: 1;
+    .link_align{
+        display: flex;
+        justify-content: center;
     }
 
-    #hs{
-        order:2
+    .button_opacity{
+        margin-top: 10px;
     }
-
-    #rise{
-        order:3
-    }
-
-    #shore{
-        order:4
-    }
-
-    #asc{
-        order:5
-    }
-
-    #si{
-        order:6
-    } */
-
+    
     footer{
         display: flex;
         flex-direction: column;
