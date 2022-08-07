@@ -61,7 +61,7 @@ for(let i=0;i<projects.length;i++){
     newDate=document.createElement('div')
     newDate.style.margin="0px"
     newDate.innerHTML="Created: "+projects[i].date
-    newDate.style.marginBottom="10px"
+    newDate.style.marginBottom="20px"
     newDate.className="link_align"
     
     authorDiv=document.createElement('div')
@@ -82,8 +82,10 @@ for(let i=0;i<projects.length;i++){
     newStat.style.margin="0px"
 
     descDiv=document.createElement('div')
+    descDiv.id="desc_align"
     descDiv.style.margin="0px"
     descDiv.innerHTML="Description:"
+    
 
     for(let k=0;k<projects[i].desc.length;k++){
         newDesc=document.createElement('div')
@@ -178,12 +180,16 @@ for(let i=0;i<grades.length;i++){
     if(grades[i].picture=="na"){
         newPic.style.width="200px"
     }
+    else{
+        newPic.classList.add("width_adjust")
+    }
     newPic.style.border="2px black solid"
-    newPic.className="new_pic"
+    newPic.classList.add("new_pic")
     
     let txtDiv=document.createElement('div')
     txtDiv.style.display="flex"
     txtDiv.style.flexDirection="column"
+    txtDiv.id="txt_align"
 
     newName=document.createElement('h2')
     newName.innerHTML=grades[i].name
