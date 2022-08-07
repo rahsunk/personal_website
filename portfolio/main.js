@@ -202,7 +202,7 @@ for(let i=0;i<grades.length;i++){
     
     newGrade=document.createElement('div')
     newGrade.style.margin="0px"
-    newGrade.innerHTML="Grade: "+grades[i].grade
+    newGrade.innerHTML="Score: "+grades[i].grade
 
     picDiv.appendChild(newPic)
     
