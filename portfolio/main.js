@@ -204,6 +204,10 @@ for(let i=0;i<grades.length;i++){
     newGrade.style.margin="0px"
     newGrade.innerHTML="Score: "+grades[i].grade
 
+    newStat=document.createElement('div')
+    newStat.innerHTML=grades[i].status
+    newStat.style.margin="0px"
+
     picDiv.appendChild(newPic)
     
     if(grades[i].name!=""){
@@ -214,6 +218,9 @@ for(let i=0;i<grades.length;i++){
     }
     if(grades[i].grade!=""){
         txtDiv.append(newGrade)
+    }
+    if(grades[i].status=="(TBD)"){
+        txtDiv.append(newStat)
     }
 
     newDiv.append(picDiv,txtDiv)
