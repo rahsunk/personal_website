@@ -12,6 +12,7 @@ let projects=[
         ],
         desc:[
             "A single-player and multiplayer game developed along with members of the All Star Code Summer Intensive, in which players must collect coins and diamonds to earn points while avoiding the spikes.",
+            "Use WASD to move Player 1, and the arrow keys for Player 2.",
             "Created using HTML, JavaScript and p5.js"
         ],
         website:"p5Project",
