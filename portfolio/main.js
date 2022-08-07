@@ -15,9 +15,9 @@ for(let i=0;i<navLines.length;i++){
     }
 }
 
-const projects=document.getElementById('projects')
-projects.style.fontWeight="bold"
-projects.style.backgroundColor="#f2f2f2"
+const portfolio=document.getElementById('portfolio')
+portfolio.style.fontWeight="bold"
+portfolio.style.backgroundColor="#f2f2f2"
 
 const list=document.getElementById('list')
 
