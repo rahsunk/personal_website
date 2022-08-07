@@ -19,11 +19,11 @@ const portfolio=document.getElementById('portfolio')
 portfolio.style.fontWeight="bold"
 portfolio.style.backgroundColor="#f2f2f2"
 
-const list=document.getElementById('list')
+const pList=document.getElementById('project_list')
 
 let footerColor=0
 
-for(let i=0;i<data.length;i++){
+for(let i=0;i<projects.length;i++){
     let newDiv=document.createElement('div')
     newDiv.style.display="flex"
     newDiv.style.margin="0px"
@@ -41,7 +41,7 @@ for(let i=0;i<data.length;i++){
     let picDiv=document.createElement('div')
     
     let newPic=document.createElement('img')
-    newPic.src="images/"+data[i].picture+".jpg"
+    newPic.src="images/"+projects[i].picture+".png"
     newPic.style.width="200px"
     newPic.style.border="2px black solid"
     newPic.className="new_pic"
@@ -50,37 +50,60 @@ for(let i=0;i<data.length;i++){
     txtDiv.style.display="flex"
     txtDiv.style.flexDirection="column"
 
+    let txtDiv2=document.createElement('div')
+    txtDiv2.style.display="flex"
+    txtDiv2.style.flexDirection="column"
+    txtDiv2.style.margin="30px"
+
     newName=document.createElement('h2')
-    newName.innerHTML=data[i].name
+    newName.innerHTML=projects[i].name
 
-    newMail=document.createElement('div')
-    newMail.style.margin="0px"
-    newMail.innerHTML="Email: "+data[i].email+"@gmail.com"
-    newMail.style.marginBottom="10px"
-    newMail.className="link_align"
+    newDate=document.createElement('div')
+    newDate.style.margin="0px"
+    newDate.innerHTML="Created: "+projects[i].date
+    newDate.style.marginBottom="10px"
+    newDate.className="link_align"
+    
+    authorDiv=document.createElement('div')
+    authorDiv.style.margin="0px"
+    authorDiv.innerHTML="Created by:"
 
-    newLink=document.createElement('a')
-    newLink.href="https://www.linkedin.com/in/"+data[i].link
-    newLink.target="_blank"
-    newLink.innerHTML="Linkedin"
-    newLink.style.marginBottom="10px"
-    newLink.className="link_align"
+    for(let j=0;j<projects[i].authors.length;j++){
+        newAuthor=document.createElement('div')
+        newAuthor.style.marginTop="5px"
+        newAuthor.style.marginBottom="5px"
+        newAuthor.style.fontSize="12px"
+        newAuthor.innerHTML=projects[i].authors[j]
+        authorDiv.append(newAuthor)
+    }
 
-    newGit=document.createElement('a')
-    newGit.href="https://github.com/"+data[i].github
-    newGit.target="_blank"
-    newGit.innerHTML="GitHub"
-    newGit.style.marginBottom="10px"
-    newGit.className="link_align"
+    newStat=document.createElement('div')
+    newStat.innerHTML=projects[i].status
+    newStat.style.margin="0px"
+
+    descDiv=document.createElement('div')
+    descDiv.style.margin="0px"
+    descDiv.innerHTML="Description:"
+
+    for(let k=0;k<projects[i].desc.length;k++){
+        newDesc=document.createElement('div')
+        newDesc.style.marginTop="5px"
+        newDesc.style.marginBottom="5px"
+        newDesc.style.fontSize="12px"
+        newDesc.innerHTML=projects[i].desc[k]
+        descDiv.append(newDesc)
+        console.log('true')
+    }
     
     newWeb=document.createElement('a')
-    newWeb.href="https://"+data[i].website+".github.io"
+    newWeb.href="https://rahsunk.github.io/"+projects[i].website+"/"
     newWeb.target="_blank"
     newSite=document.createElement('button')
-    newSite.innerHTML="Visit their website!"
+    newSite.innerHTML="Visit here!"
     newSite.style.borderRadius="10px"
     newSite.style.border="none"
     newSite.style.padding="10px"
+    newSite.style.marginTop="20px"
     newSite.style.fontWeight="bold"
     newSite.style.color="white"
     newSite.style.backgroundColor="#800020"
@@ -90,24 +113,27 @@ for(let i=0;i<data.length;i++){
     newWeb.appendChild(newSite)
     picDiv.appendChild(newPic)
     
-    if(data[i].name!=""){
+    if(projects[i].name!=""){
         txtDiv.append(newName)
     }
-    if(data[i].email!=""){
-        txtDiv.append(newMail)
+    if(projects[i].date!=""){
+        txtDiv.append(newDate)
     }
-    if(data[i].link!=""){
-        txtDiv.append(newLink)
+    if(projects[i].authors.length!=0){
+        txtDiv.append(authorDiv)
     }
-    if(data[i].github!=""){
-        txtDiv.append(newGit)
+    if(projects[i].desc.length!=0){
+        txtDiv2.append(descDiv)
     }
-    if(data[i].website!=""){
-        txtDiv.append(newWeb)
+    if(projects[i].website!=""){
+        txtDiv2.append(newWeb)
+    }
+    if(projects[i].status=="(Future Release)"){
+        txtDiv.append(newStat)
     }
 
-    newDiv.append(picDiv,txtDiv)
-    list.appendChild(newDiv)
+    newDiv.append(picDiv,txtDiv,txtDiv2)
+    pList.appendChild(newDiv)
     
     buttonOpac=document.getElementsByClassName('button_opacity')
     for(let i=0;i<buttonOpac.length;i++){
@@ -118,6 +144,75 @@ for(let i=0;i<data.length;i++){
                 buttonOpac[i].style.opacity=1
             }
     }
+    footerColor++
+}
+
+const gList=document.getElementById('grade_list')
+const gradeColor=document.getElementById('grades')
+if(footerColor%2==0){
+    gradeColor.style.backgroundColor="white"
+}
+else{
+    gradeColor.style.backgroundColor="#f2f2f2"
+}
+
+for(let i=0;i<grades.length;i++){
+    let newDiv=document.createElement('div')
+    newDiv.style.display="flex"
+    newDiv.style.margin="0px"
+    newDiv.style.paddingBottom="10px"
+    newDiv.style.paddingTop="10px"
+    newDiv.className="new_div"
+
+    if(i%2==0){
+        newDiv.style.backgroundColor="white"
+    }
+    else{
+        newDiv.style.backgroundColor="#f2f2f2"
+    }
+    
+    let picDiv=document.createElement('div')
+    
+    let newPic=document.createElement('img')
+    newPic.src="images/"+grades[i].picture+".png"
+    if(grades[i].picture=="na"){
+        newPic.style.width="200px"
+    }
+    newPic.style.border="2px black solid"
+    newPic.className="new_pic"
+    
+    let txtDiv=document.createElement('div')
+    txtDiv.style.display="flex"
+    txtDiv.style.flexDirection="column"
+
+    newName=document.createElement('h2')
+    newName.innerHTML=grades[i].name
+
+    newDate=document.createElement('div')
+    newDate.style.margin="0px"
+    newDate.innerHTML="Taken: "+grades[i].date
+    newDate.style.marginBottom="10px"
+    newDate.className="link_align"
+    
+    newGrade=document.createElement('div')
+    newGrade.style.margin="0px"
+    newGrade.innerHTML="Grade: "+grades[i].grade
+
+    picDiv.appendChild(newPic)
+    
+    if(grades[i].name!=""){
+        txtDiv.append(newName)
+    }
+    if(grades[i].date!=""){
+        txtDiv.append(newDate)
+    }
+    if(grades[i].grade!=""){
+        txtDiv.append(newGrade)
+    }
+
+    newDiv.append(picDiv,txtDiv)
+    gList.appendChild(newDiv)
+    
     footerColor++
 }
 
