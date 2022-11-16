@@ -19,13 +19,22 @@ let projects=[
         status:"Completed"
     },
     demo={
-        picture:"na",
-        name: "Demo Day Project",
+        picture:"demo_day",
+        name: "Demo Day Project: Weather TO-GO",
         date:"August 2022",
-        authors:[],
-        desc:[],
-        website:"",
-        status:"(Future Release)"
+        authors:[
+            "Rahsun Komatsuzaki-Fields",
+            "Rasul Mohammad",
+            "Fahim Muntasir",
+            "Michael Tejada"
+        ],
+        desc:[
+            "A website Weather-TO-GO is an application designed to give users information about the weather conditions in various times and the current air quality.",
+            "As the world’s environment continues to deteriorate, this application helps users prepare for the modern unpredictable climate while also raising awareness of climate change.",
+            "Created using HTML, CSS, and JavaScript"
+        ],
+        website:"demo_day_project/home.html",
+        status:"Completed"
     }
 ]
 

@@ -42,7 +42,7 @@ for(let i=0;i<projects.length;i++){
     
     let newPic=document.createElement('img')
     newPic.src="images/"+projects[i].picture+".png"
-    newPic.style.width="200px"
+    newPic.style.width="350px"
     newPic.style.border="2px black solid"
     newPic.className="new_pic"
     
@@ -98,7 +98,7 @@ for(let i=0;i<projects.length;i++){
     }
     
     newWeb=document.createElement('a')
-    newWeb.href="https://rahsunk.github.io/"+projects[i].website+"/"
+    newWeb.href="https://rahsunk.github.io/"+projects[i].website
     newWeb.target="_blank"
     newSite=document.createElement('button')
     newSite.innerHTML="Visit here!"
