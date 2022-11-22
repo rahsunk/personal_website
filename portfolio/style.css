@@ -90,6 +90,10 @@ footer{
     text-align:center;
 }
 
+.width_adjust{
+    width:500px;
+}
+
 @media(max-width:1030px){
     body{
         display: flex;

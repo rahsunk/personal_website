@@ -39,6 +39,13 @@ let projects=[
 ]
 
 let grades=[
+    SAT={
+        picture:"sat",
+        name:"SAT",
+        date:"November 2022",
+        grade:1530+" (English: 730, Math: 800)",
+        status:"completed"
+    },
     calcAB={
         picture:"APCalcAB",
         name:"AP Calculus AB",
