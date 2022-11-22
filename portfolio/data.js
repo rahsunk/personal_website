@@ -44,7 +44,7 @@ let grades=[
         name:"SAT",
         date:"November 2022",
         grade:1530+" (English: 730, Math: 800)",
-        status:"completed"
+        status:"Completed"
     },
     calcAB={
         picture:"APCalcAB",
