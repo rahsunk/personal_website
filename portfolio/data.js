@@ -113,7 +113,7 @@ let grades=[
 
 let awards=[
     natMerit={
-        picture:"na",
+        picture:"nationalMerit",
         name:"National Merit Letter of Commendation",
         date:"September 2022",
         level:"National",
@@ -138,7 +138,7 @@ let awards=[
         "with a score of 3 or higher for at least 5 exams."]
     },
     africanRec={
-        picture:"na",
+        picture:"africanRec",
         name:"African American Recognition Award",
         date:"July 2022",
         level:"National",
@@ -162,7 +162,7 @@ let awards=[
         desc:["Local award granted by Scholars' Academy to students who complete a marking period (1/2 of a semester) with a 98 or above weighted average."]
     },
     NHS={
-        picture:"na",
+        picture:"NHS",
         name:"National Honor Society",
         date:"January 2022",
         level:"National",
@@ -172,7 +172,7 @@ let awards=[
         ]
     },
     kenyo={
-        picture:"na",
+        picture:"kenyo",
         name:"Master Taganashi's Martial Arts Institute: American-Te Goju-Ryu Kenyo Certificate",
         date:"February 2020",
         level:"Regional",
