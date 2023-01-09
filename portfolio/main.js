@@ -229,6 +229,86 @@ for(let i=0;i<grades.length;i++){
     footerColor++
 }
 
+const aList=document.getElementById('award_list')
+const awardColor=document.getElementById('awards')
+if(footerColor%2==0){
+    awardColor.style.backgroundColor="white"
+}
+else{
+    awardColor.style.backgroundColor="#f2f2f2"
+}
+
+for(let i=0;i<awards.length;i++){
+    let newDiv=document.createElement('div')
+    newDiv.style.display="flex"
+    newDiv.style.margin="0px"
+    newDiv.style.paddingBottom="10px"
+    newDiv.style.paddingTop="10px"
+    newDiv.className="new_div"
+
+    if(i%2==0){
+        newDiv.style.backgroundColor="white"
+    }
+    else{
+        newDiv.style.backgroundColor="#f2f2f2"
+    }
+    
+    let picDiv=document.createElement('div')
+    
+    let newPic=document.createElement('img')
+    newPic.src="images/"+awards[i].picture+".png"
+    if(awards[i].picture=="na"){
+        newPic.style.width="200px"
+    }
+    else{
+        newPic.classList.add("width_adjust")
+    }
+    newPic.style.border="2px black solid"
+    newPic.classList.add("new_pic")
+    
+    let txtDiv=document.createElement('div')
+    txtDiv.style.display="flex"
+    txtDiv.style.flexDirection="column"
+    txtDiv.id="txt_align"
+
+    newName=document.createElement('h2')
+    newName.innerHTML=awards[i].name
+
+    newDate=document.createElement('div')
+    newDate.style.margin="0px"
+    newDate.innerHTML="Awarded: "+awards[i].date
+    newDate.style.marginBottom="10px"
+    newDate.className="link_align"
+    
+    newLevel=document.createElement('div')
+    newLevel.style.margin="0px"
+    newLevel.innerHTML="Level: "+awards[i].level
+
+    descDiv=document.createElement('div')
+    descDiv.id="desc_align award_desc_align"
+    descDiv.style.marginTop="10px"
+    descDiv.innerHTML="Description:"
+
+    for(let k=0;k<awards[i].desc.length;k++){
+        newDesc=document.createElement('div')
+        newDesc.style.marginTop="5px"
+        newDesc.style.marginBottom="5px"
+        newDesc.style.fontSize="12px"
+        newDesc.innerHTML=awards[i].desc[k]
+        descDiv.append(newDesc)
+    }
+
+    picDiv.appendChild(newPic)
+    
+    txtDiv.append(newName,newDate,newLevel,descDiv)
+
+    newDiv.append(picDiv,txtDiv)
+    aList.appendChild(newDiv)
+    
+    footerColor++
+}
+
+
 const footer=document.querySelector('footer')
 if(footerColor%2==0){
     footer.style.backgroundColor="white"
