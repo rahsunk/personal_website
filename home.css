@@ -56,9 +56,6 @@ h1{
 
 #desc{
     width:450px;
-}
-
-#desc p{
     font-size: 120%;
 }
 
@@ -89,7 +86,16 @@ h1{
 
 #video_info{
     background-color: white;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
+}
+
+#personal_vid{
+    margin:0px;
+    margin-bottom:20px;
 }
 
 #org_container{
@@ -199,6 +205,26 @@ footer{
         padding:0px;
         padding-top:60px;
         padding-bottom:30px;
+    }
+
+    #video_info{
+        width:89%;
+        background-color: white;
+        padding:10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #YT{
+        width:88%;
+        height:88%;
+    }
+    
+    #personal_vid{
+        margin:0px;
+        margin-bottom:20px;
     }
 
     #txt{
