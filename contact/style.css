@@ -50,6 +50,10 @@ img{
     border:4px brown solid;
 }
 
+#txt{
+    margin-left:20px;
+}
+
 h1{
     font-size:40px;
 }
@@ -70,6 +74,10 @@ h1{
     background-color: white;
     display:flex;
     justify-content: center;
+    margin:0px;
+    margin-left:10px;
+    margin-right:10px;
+    padding:30px;
 }
 
 #list{
@@ -159,7 +167,7 @@ footer{
     }
 
     #assoc_container{
-        background-color: rgba(128,0,32,0.5);
+        background-color: white;
         display: flex;
         flex-direction: column;
         padding-bottom:5px;

@@ -19,14 +19,15 @@ const contact=document.getElementById('contact')
 contact.style.fontWeight="bold"
 contact.style.backgroundColor="#f2f2f2"
 
-const list=document.getElementById('list')
+const list=document.getElementById('assoc_container')
 
 let footerColor=0
 
 for(let i=0;i<data.length;i++){
     let newDiv=document.createElement('div')
     newDiv.style.display="flex"
-    newDiv.style.margin="0px"
+    newDiv.style.marginLeft="10px"
+    newDiv.style.marginRight="10px"
     newDiv.style.paddingBottom="10px"
     newDiv.style.paddingTop="10px"
     newDiv.className="new_div"
@@ -62,7 +63,7 @@ for(let i=0;i<data.length;i++){
     newLink=document.createElement('a')
     newLink.href="https://www.linkedin.com/in/"+data[i].link
     newLink.target="_blank"
-    newLink.innerHTML="Linkedin"
+    newLink.innerHTML="LinkedIn"
     newLink.style.marginBottom="10px"
     newLink.className="link_align"
 
@@ -74,7 +75,7 @@ for(let i=0;i<data.length;i++){
     newGit.className="link_align"
     
     newWeb=document.createElement('a')
-    newWeb.href="https://"+data[i].website+".github.io"
+    newWeb.href=data[i].website
     newWeb.target="_blank"
     newSite=document.createElement('button')
     newSite.innerHTML="Visit their website!"
