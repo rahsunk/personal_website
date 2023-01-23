@@ -88,13 +88,13 @@ h1{
     background-color: white;
     padding:10px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
     text-align: center;
 }
 
 #personal_vid{
-    margin:0px;
     margin-bottom:20px;
 }
 
@@ -217,7 +217,7 @@ footer{
         text-align: center;
     }
 
-    #YT{
+    .YT{
         width:88%;
         height:88%;
     }
