@@ -16,7 +16,7 @@ let data=[
         website:"https://theverusdev.github.io"
     },
     angel={
-        picture:"na",
+        picture:"angel",
         name:"Angel DeLaCruz",
         email:"angeldlacz.05",
         link:"angel-delacruz-5337a6261",
