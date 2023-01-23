@@ -35,7 +35,7 @@ div{
     align-items: center;
 }
 
-#portrait img{
+#portrait{
     width: 200px;
     border:4px brown solid;
     margin:20px;
@@ -159,7 +159,7 @@ footer{
         margin-right:2.5px;
     }
 
-    #portrait img{
+    #portrait{
         width:150px;
     }
 
