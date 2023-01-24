@@ -42,9 +42,8 @@ for(let i=0;i<projects.length;i++){
     
     let newPic=document.createElement('img')
     newPic.src="images/"+projects[i].picture+".png"
-    newPic.style.width="350px"
     newPic.style.border="2px black solid"
-    newPic.className="new_pic"
+    newPic.className="new_pic project_pic"
     
     let txtDiv=document.createElement('div')
     txtDiv.style.display="flex"
