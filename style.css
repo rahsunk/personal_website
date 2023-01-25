@@ -194,8 +194,10 @@ footer{
     }
 
     #nav div{
-        font-size:30%;
+        font-size:25%;
+        text-align: center;
         font-weight: bold;
+        margin:5px;
     }
 
     #mid{
