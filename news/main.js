@@ -15,9 +15,11 @@ for(let i=0;i<navLines.length;i++){
     }
 }
 
-const news=document.getElementById('list')
+const news=document.getElementById('news')
 news.style.fontWeight="bold"
 news.style.backgroundColor="#f2f2f2"
+
+const newsList=document.getElementById('news_container')
 
 let footerColor=0
 
@@ -134,7 +136,7 @@ for(let i=0;i<data.length;i++){
 
 
     newDiv.append(picDiv,txtDiv,txtDiv2)
-    news.appendChild(newDiv)
+    newsList.appendChild(newDiv)
     
     buttonOpac=document.getElementsByClassName('button_opacity')
     for(let i=0;i<buttonOpac.length;i++){
