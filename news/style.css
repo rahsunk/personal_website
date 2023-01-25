@@ -34,6 +34,7 @@ div{
 
 img{
     width: 300px;
+    margin-bottom:20px;
 }
 
 #mid{
@@ -61,37 +62,10 @@ h1{
     margin:0px;
 }
 
-/* #projects{
-    background-color: white;
-    display:flex;
-    justify-content: center;
-    margin:0px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding:20px;
-}
-
-#grades, #awards{
-    display: flex;
-    justify-content: center;
-    margin:0px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding:20px;
-}
-
-#list{
-    display: flex;
-    flex-direction: column;
-}
-
-.new_pic, .project_pic{
+.new_pic{
     margin-left: 20px;
-}
-
-.project_pic{
     width:350px;
-} */
+}
 
 footer{
     background-color: #f2f2f2;
@@ -178,13 +152,16 @@ footer{
         width:93.5%
     }
     
-    /* .new_pic{
+    .YT{
+        width:88%;
+        height:88%;
+    }
+    
+    
+    .new_pic{
         margin-left:0px;
         border: 2px solid black;
-    }
-
-    .project_pic{
-        width:80%;
+        width:225px;
     }
 
     .width_adjust{
@@ -214,7 +191,7 @@ footer{
     
     .button_pos{
         align-self: center;
-    } */
+    }
     
     footer{
         display: flex;

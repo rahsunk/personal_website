@@ -1,21 +1,22 @@
-//technical director Nov 6
-
 const data=[
     personalVideo={
-        picture:"personalVideo",
-        picture2:"",
+        picture:[
+            "personalVideo",
+            "rockaway"
+        ],
         name:"Personal Video Completed!",
         date:"2023.01.23",
         desc:[
             "A short 2-minute video of my life has been completed!",
             "Go check it out on the home page or below!",
         ],
-        link:"https://drive.google.com/file/d/1br9SRwZHQyekn2wRLZh7NCYivA8yiI-e/view?usp=share_link",
-        video:""
+        link:"",
+        video:"https://www.youtube.com/embed/SyY2U7iU9zo"
     },
     newYear={
-        picture:"2023",
-        picture2:"",
+        picture:[
+            "2023",
+        ],
         name:"Happy New Year!",
         date:"2023.01.01",
         desc:[
@@ -27,8 +28,10 @@ const data=[
         video:""
     },
     nets={
-        picture:"barclays",
-        picture2:"withDad",
+        picture:[
+            "barclays",
+            "withDad"
+        ],
         name:"Brooklyn Nets Game",
         date:"2022.12.23",
         desc:[
@@ -41,21 +44,24 @@ const data=[
         video:""
     },
     techDirector={
-        picture:"techDirector",
-        picture2:"",
+        picture:
+            ["techDirector"
+        ],
         name:"Promotion to School TV Technical Director",
         date:"2022.11.06",
         desc:[
             "I have been promoted from cameraman to technical director for the Scholars' Academy TV Production team.",
             "I look forward to my new job of configuring all graphics and backdrops of the videos.",
-            "Check out our most recent production below!"
+            "Check out a future preview below!"
         ],
-        link:"",
+        link:"https://drive.google.com/file/d/1jHt17tUh762nMiGt7Jut0HaqzpaL0Ap4/view?usp=share_link",
         video:""
     },
     az={
-        picture:"az",
-        picture2:"firstVideo",
+        picture:[
+            "az",
+            "firstVideo"
+        ],
         name:"Annoucing Arithmetic Zone!",
         date:"2022.10.22",
         desc:[
@@ -64,6 +70,6 @@ const data=[
             "Check out our most recent video below!"
         ],
         link:"",
-        video:"https://www.youtube.com/watch?v=s1bZnpRRCp4",
+        video:"https://www.youtube.com/embed/s1bZnpRRCp4",
     }
 ]
