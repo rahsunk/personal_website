@@ -80,9 +80,14 @@ h1{
     padding:30px;
 }
 
-#list{
+#AZ_list,#other_list{
     display: flex;
     flex-direction: column;
+    background-color: white;
+}
+
+#crew,#others{
+    margin-left: 20px;
 }
 
 .new_pic{
@@ -160,6 +165,10 @@ footer{
         align-items: center;
         text-align: center;
         width:50%
+    }
+    
+    #AZ_list,#other_list{
+        text-align: center;
     }
 
     h1{

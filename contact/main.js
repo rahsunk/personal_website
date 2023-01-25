@@ -19,7 +19,8 @@ const contact=document.getElementById('contact')
 contact.style.fontWeight="bold"
 contact.style.backgroundColor="#f2f2f2"
 
-const list=document.getElementById('assoc_container')
+const AZlist=document.getElementById('AZ_list')
+const others=document.getElementById('other_list')
 
 let footerColor=0
 
@@ -53,6 +54,9 @@ for(let i=0;i<data.length;i++){
 
     newName=document.createElement('h2')
     newName.innerHTML=data[i].name
+
+    newDesc=document.createElement('h3')
+    newDesc.innerHTML=data[i].desc
 
     newMail=document.createElement('div')
     newMail.style.margin="0px"
@@ -94,9 +98,13 @@ for(let i=0;i<data.length;i++){
     if(data[i].name!=""){
         txtDiv.append(newName)
     }
+    if(data[i].desc!=""){
+        txtDiv.append(newDesc)
+    }
     if(data[i].email!=""){
         txtDiv.append(newMail)
     }
+    
     if(data[i].link!=""){
         txtDiv.append(newLink)
     }
@@ -108,7 +116,14 @@ for(let i=0;i<data.length;i++){
     }
 
     newDiv.append(picDiv,txtDiv)
-    list.appendChild(newDiv)
+    
+    if(data[i].desc!=""){
+        AZlist.appendChild(newDiv)
+    }
+    else{
+        others.appendChild(newDiv)
+    }
+    
     
     buttonOpac=document.getElementsByClassName('button_opacity')
     for(let i=0;i<buttonOpac.length;i++){

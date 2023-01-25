@@ -1,7 +1,35 @@
 let data=[
+    angel={
+        picture:"angel",
+        name:"Angel DeLaCruz",
+        desc:"Assistant Producer, Marketer, Post-Production Reviewer",
+        email:"angeldlacz.05",
+        link:"angel-delacruz-5337a6261",
+        github:"",
+        website:""
+    },
+    aryk={
+        picture:"aryk",
+        name:"Aryk Nash Maraj",
+        desc:"Marketer, Helping Fellow",
+        email:"aryknash05",
+        link:"",
+        github:"",
+        website:""
+    },
+    nathan={
+        picture:"nathan",
+        name:"Nathan Alonzia",
+        desc:"Scripter, Editor",
+        email:"",
+        link:"",
+        github:"",
+        website:""
+    },
     owasimul={
         picture:"owasimul",
         name:"Owasimul Sidick",
+        desc:"",
         email: "owasimuls",
         link: "owasimul-sidick-146373239",
         github:"OwasimulS",
@@ -10,32 +38,9 @@ let data=[
     rick={
         picture:"rick",
         name:"Richard Perez",
+        desc:"",
         email:"",
         link:"richard-perez-jr/",
-        github:"theVerusDev",
-        website:"https://theverusdev.github.io"
-    },
-    angel={
-        picture:"angel",
-        name:"Angel DeLaCruz",
-        email:"angeldlacz.05",
-        link:"angel-delacruz-5337a6261",
-        github:"",
-        website:""
-    },
-    aryk={
-        picture:"na",
-        name:"Aryk Nash Maraj",
-        email:"aryknash05",
-        link:"",
-        github:"",
-        website:""
-    },
-    nathan={
-        picture:"na",
-        name:"Nathan Alonzia",
-        email:"",
-        link:"",
         github:"",
         website:""
     }
