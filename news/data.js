@@ -67,7 +67,7 @@ const data=[
         desc:[
             "Using my acquired math and coding language, I created a channel to teach these topics to anyone.",
             "Come back every weekend for 2 videos on obscure arithmetic topics and website development.",
-            "Check out our most recent video below!"
+            "Check out our first video below!"
         ],
         link:"",
         video:"https://www.youtube.com/embed/s1bZnpRRCp4",
