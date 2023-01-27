@@ -108,9 +108,9 @@ for(let i=0;i<data.length;i++){
     newVid.height="315"
     newVid.src=data[i].video
     newVid.title="YouTube video player"
-    newVid.frameborder="0"
+    newVid.frameBorder="0"
     newVid.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    newVid.allowfullscreen=true
+    newVid.setAttribute('allowFullScreen', '')
     
     if(data[i].picture.length!=0){
         picDiv.appendChild(newPic)
