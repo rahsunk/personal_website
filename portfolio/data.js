@@ -145,7 +145,7 @@ let awards=[
         desc:["An award granted to African Americans who have at least a 3.5 GPA and have excelled in their PSAT and AP exams."]
     },
     outstandingScholar={
-        picture:"na",
+        picture:"outstandingScholar",
         name:"Outstanding Scholar for Term One Marking Period Two",
         date:"February 2022",
         level:"School",
@@ -155,7 +155,7 @@ let awards=[
         ]
     },
     honorRoll={
-        picture:"na",
+        picture:"honorRoll",
         name:"Honor Roll: Principal's List",
         date:"November 2019 - present",
         level:"School",
