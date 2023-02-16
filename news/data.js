@@ -1,6 +1,22 @@
 const data=[
     dadBirthday={
         picture:[
+            "sleepVideo"
+        ],
+        name:"Sleep Introspective Video",
+        date:"2023.02.15",
+        desc:[
+            "For my entry for the 2023 AASM \"Unplug to Recharge\" High School Video Contest,",
+            "I produced a psychological introspective of myself and the entity of sleep.",
+            "Technology is awesome, but it's important to limit it before sleep.",
+            "Creating this video gave me yet another opportunity to express my improving video production skills,",
+            "thanks to the school TV Production team and Arithmetic Zone."
+        ],
+        link:"",
+        video:"https://www.youtube.com/embed/W4TgXNGnQRA"
+    },
+    dadBirthday={
+        picture:[
             "dadBirthday"
         ],
         name:"Happy 60th Dad!",
