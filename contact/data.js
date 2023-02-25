@@ -13,7 +13,7 @@ let data=[
         name:"Aryk Nash Maraj",
         desc:"Marketer, Helping Fellow",
         email:"aryknash05",
-        link:"",
+        link:"aryk-nash-maraj-a31a73263",
         github:"",
         website:""
     },
