@@ -1,5 +1,20 @@
 const data=[
-    dadBirthday={
+    AZtrailer={
+        picture:[
+            "enterAZ"
+        ],
+        name:"Arithmetic Zone Trailer Released!",
+        date:"2023.03.19",
+        desc:[
+            "The long-awaited trailer for the Arithmetic Zone has been completed!",
+            "Enjoy this montage and advertisement of my past videos, complete to the tune with Mario Kart 64 music.",
+            "I want to thank the Arithmetic Zone Crew (especially Nathan A. for the voice lines), for the hard work we have put in so far.",
+            "Stay tuned for more tutorials in the future!"
+        ],
+        link:"",
+        video:"https://www.youtube.com/embed/3BEJmn8BPYM"
+    },
+    sleepVideo={
         picture:[
             "sleepVideo"
         ],
