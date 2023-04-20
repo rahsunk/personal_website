@@ -62,7 +62,6 @@ const data=[
     },
     personalVideo={
         picture:[
-            "personalVideo",
             "rockaway"
         ],
         name:"Personal Video Completed!",
