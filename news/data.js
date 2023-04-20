@@ -1,4 +1,20 @@
 const data=[
+    ps5={
+        picture:[
+            "gaming"
+        ],
+        name:"A New Console Approaches",
+        date:"2023.04.10",
+        desc:[
+            "Once again, I took part in All Star Code's Challenge Zone coding competition for Season 2.",
+            "This time, I was able to take the 1st place prize: a PS5 Digital Edition!",
+            "As a video game collector, it represented another milestone in my recreational journey.",
+            "The picture depicted here only shows what's on the 1st row of shelves.",
+            "I have many more consoles below, across, and behind in my room!"
+        ],
+        link:"",
+        video:""
+    },
     AZtrailer={
         picture:[
             "enterAZ"
