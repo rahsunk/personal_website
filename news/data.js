@@ -119,8 +119,7 @@ const data=[
     },
     az={
         picture:[
-            "az",
-            "firstVideo"
+            "az"
         ],
         name:"Annoucing Arithmetic Zone!",
         date:"2022.10.22",
