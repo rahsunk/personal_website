@@ -21,8 +21,8 @@ let data=[
         picture:"nathan",
         name:"Nathan Alonzia",
         desc:"Scripter, Editor",
-        email:"",
-        link:"",
+        email:"nathanalonzia3rd",
+        link:"nathan-alonzia-5505a6275",
         github:"",
         website:""
     },
