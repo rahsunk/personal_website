@@ -1,4 +1,23 @@
 const data=[
+    mit={
+        picture:[
+            "mit",
+            "tim"
+        ],
+        name:"My College Decision",
+        date:"2023.05.01",
+        desc:[
+            "On May 1st of this year, I must choose a college to call home for the next 4 years.",
+            "It was an easy decision for me to enroll in the Massachusetts Institute of Technology.",
+            "I am grateful to be given this amazing opportunity, and I am confident that",
+            "MIT will give me the experience needed to tackle the digital divide and",
+            "improve the capabilities and accessibility of technology for all",
+            "communities around the world. Attending MIT's Campus Preview Weekend (CPW) has",
+            "only reinforced my desire to join a community of humanitarian engineers."
+        ],
+        link:"",
+        video:""
+    },
     ps5={
         picture:[
             "gaming"
