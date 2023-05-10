@@ -123,8 +123,8 @@ const data=[
         video:""
     },
     techDirector={
-        picture:
-            ["techDirector"
+        picture:[
+            "techDirector"
         ],
         name:"Promotion to School TV Technical Director",
         date:"2022.11.06",
