@@ -65,20 +65,6 @@ const data=[
         link:"",
         video:"https://www.youtube.com/embed/W4TgXNGnQRA"
     },
-    dadBirthday={
-        picture:[
-            "dadBirthday"
-        ],
-        name:"Happy 60th Dad!",
-        date:"2023.02.11",
-        desc:[
-            "Happy 60th birthday to my dad, who's still as strong, fast, and smart as he was",
-            "in his youth. His life is one of many displays of the merits of high aspiration",
-            "and strong morals. He shows no signs of stopping in giving back to the people he cares about."
-        ],
-        link:"",
-        video:""
-    },
     personalVideo={
         picture:[
             "rockaway"
