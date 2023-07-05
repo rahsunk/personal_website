@@ -82,32 +82,32 @@ let grades=[
         status:"Completed"
     },
     calcBC={
-        picture:"na",
+        picture:"APCalcBC",
         name:"AP Calculus BC",
         date:"May 2023",
-        grade:"",
-        status:"(TBD)"
+        grade:5,
+        status:"Completed"
     },
     csa={
-        picture:"na",
+        picture:"APCSA",
         name:"AP Computer Science A",
         date:"May 2023",
-        grade:"",
-        status:"(TBD)"
+        grade:5,
+        status:"Completed"
     },
     phys={
-        picture:"na",
+        picture:"APPhysCMech",
         name:"AP Physics C: Mechanics",
         date:"May 2023",
-        grade:"",
-        status:"(TBD)"
+        grade:5,
+        status:"Completed"
     },
     lit={
-        picture:"na",
+        picture:"APEngLit",
         name:"AP English Literature & Composition",
         date:"May 2023",
-        grade:"",
-        status:"(TBD)"
+        grade:5,
+        status:"Completed"
     },
 ]
 
