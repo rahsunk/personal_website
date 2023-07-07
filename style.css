@@ -102,7 +102,7 @@ h1{
     margin:0px;
 }
 
-#organizations,#org_info, #az_info{
+#organizations,#org_info, #present_info{
     background-color: white;
 }
 
@@ -111,18 +111,21 @@ h1{
     justify-content: center;
 }
 
-#az_info{
+#present_info{
     display:flex;
-    flex-direction:column;
-    align-items: center;
+    flex-direction:row;
+    justify-content: space-around;
+    padding-bottom: 20px;
 }
 
-#az_img{
-    margin-right:150px;
+#present_info div, #org_info div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 #org_info{
-    background-color: white;
     padding-top:15px;
     padding-bottom: 20px;
     padding:20px;
@@ -134,12 +137,6 @@ h1{
     font-size:small;
 }
 
-.images{
-    margin-left:150px;
-    flex: 1 20%;
-    justify-content: center;
-}
-
 .txt{
     justify-content: center;
     margin-top:10px;
@@ -147,15 +144,6 @@ h1{
 
 #shore, #hs{
     text-align: center;
-}
-
-#shore{
-    margin-right: 100px;
-}
-
-#asc{
-    margin-top:10px;
-    margin-left:200px;
 }
 
 footer{
@@ -265,12 +253,8 @@ footer{
         margin-right: 0px;
     }
 
-    #az_img{
-        margin:0px;
-    }
-
-    #az_info #yt{
-        text-align: center;
+    #present_info{
+        flex-direction: column;
     }
 
     #org_container{
@@ -287,12 +271,16 @@ footer{
         padding-bottom:10px;
     }
 
+    #az{
+        margin-top: 30px;
+    }
+    
     #rise{
-        width:100%;
+        margin-top:20px;
     }
 
-    #rise,#asc{
-        margin-top:20px;
+    #asc{
+        margin-top: 40px;
     }
 
     #org_info div{
@@ -305,31 +293,6 @@ footer{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-    }
-
-    #tsa{
-        order: 1;
-    }
-
-    #hs{
-        order:2;
-    }
-
-    #rise{
-        order:3;
-    }
-
-    #shore{
-        order:4;
-    }
-
-    #asc{
-        order:5;
-        margin-left:0px;
-    }
-
-    #si{
-        order:6;
     }
 
     footer{
