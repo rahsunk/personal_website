@@ -157,7 +157,7 @@ let awards=[
     honorRoll={
         picture:"honorRoll",
         name:"Honor Roll: Principal's List",
-        date:"November 2019 - present",
+        date:"November 2019 - June 2023",
         level:"School",
         desc:["Local award granted by Scholars' Academy to students who complete a marking period (1/2 of a semester) with a 98 or above weighted average."]
     },
