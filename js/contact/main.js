@@ -43,7 +43,7 @@ for(let i=0;i<data.length;i++){
     let picDiv=document.createElement('div')
     
     let newPic=document.createElement('img')
-    newPic.src="images/"+data[i].picture+".jpg"
+    newPic.src="../../images/contact/"+data[i].picture+".jpg"
     newPic.style.width="200px"
     newPic.style.border="2px black solid"
     newPic.className="new_pic"

@@ -41,7 +41,7 @@ for(let i=0;i<projects.length;i++){
     let picDiv=document.createElement('div')
     
     let newPic=document.createElement('img')
-    newPic.src="images/"+projects[i].picture+".png"
+    newPic.src="../../images/portfolio/"+projects[i].picture+".png"
     newPic.style.border="2px black solid"
     newPic.className="new_pic project_pic"
     
@@ -175,7 +175,7 @@ for(let i=0;i<grades.length;i++){
     let picDiv=document.createElement('div')
     
     let newPic=document.createElement('img')
-    newPic.src="images/"+grades[i].picture+".png"
+    newPic.src="../../images/portfolio/"+grades[i].picture+".png"
     if(grades[i].picture=="na"){
         newPic.style.width="200px"
     }
@@ -255,7 +255,7 @@ for(let i=0;i<awards.length;i++){
     let picDiv=document.createElement('div')
     
     let newPic=document.createElement('img')
-    newPic.src="images/"+awards[i].picture+".png"
+    newPic.src="../../images/portfolio/"+awards[i].picture+".png"
     if(awards[i].picture=="na"){
         newPic.style.width="200px"
     }

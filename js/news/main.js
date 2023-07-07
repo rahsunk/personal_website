@@ -46,7 +46,7 @@ for(let i=0;i<data.length;i++){
     for(let j=0;j<data[i].picture.length;j++){
         console.log(data[i].picture.length)
         newPic=document.createElement('img')
-        newPic.src="images/"+data[i].picture[j]+".jpg"
+        newPic.src="../../images/news/"+data[i].picture[j]+".jpg"
         newPic.style.border="2px black solid"
         newPic.className="new_pic"
         picDiv.append(newPic)
