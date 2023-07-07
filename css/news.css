@@ -1,61 +1,22 @@
-body{
-    background-color: bisque;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#header{
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    padding-top:10px;
-}
-
-#nav{
-    display:flex;
-    font-size:200%;
-    justify-content: space-around;
-    padding-top:10px;
-}
-
-div{
-    margin-left:10px;
-    margin-right:10px;
-}
-
-.noline{
-    text-decoration: none;
-    color:black;
-}
-
-.no_button_line{
-    text-decoration: none;
-    color:black
-}
-
 img{
-    width: 300px;
     margin-bottom:20px;
 }
 
 #mid{
-    display:flex;
     flex-direction: column;
-    justify-content:center;
-    background-color: #f2f2f2;
-    text-align: center;
-    padding:30px;
+    align-items: center;
     padding-top:30px;
     padding-bottom:60px;
 }
 
 h1{
-    font-size:40px;
     text-align: center;
 }
 
 #desc{
     margin: 0px;
     margin-top: 50px;
+    font-size: 100%;
 }
 
 #news_container{
@@ -69,79 +30,12 @@ h1{
     width:350px;
 }
 
-footer{
-    background-color: #f2f2f2;
-    margin-left:10px;
-    margin-right:10px;
-    padding:10px;
-    text-align:center;
-}
-
 .width_adjust{
     width:500px;
 }
 
 @media(max-width:1030px){
-    body{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #header #logo a{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    #logo img, .images img{
-        width:75%;
-    }
-    
-    #nav{
-        margin:0px;
-    }
-
-    #nav div{
-        font-size:25%;
-        text-align: center;
-        font-weight: bold;
-        margin:5px;
-    }
-
-    #mid{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        padding:0px;
-        padding-top:60px;
-        padding-bottom:30px;
-    }
-
-    #desc{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        width:80%;
-        text-align:center;
-    }
-
-    #name{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
     h1{
-        font-size: 30px;
         width:200px;
         margin-bottom: 0px;
     }
@@ -155,12 +49,6 @@ footer{
         margin:0px;
         width:93.5%
     }
-    
-    .YT{
-        width:88%;
-        height:88%;
-    }
-    
     
     .new_pic{
         margin-left:0px;
@@ -195,11 +83,5 @@ footer{
     
     .button_pos{
         align-self: center;
-    }
-    
-    footer{
-        display: flex;
-        flex-direction: column;
-        font-size: 50%;
     }
 }

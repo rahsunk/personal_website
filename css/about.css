@@ -1,25 +1,7 @@
-body{
-    background-color: bisque;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#header{
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    padding-top:10px;
-}
-
-#nav{
-    display:flex;
-    font-size:200%;
-    justify-content: space-around;
-    padding-top:10px;
-}
-
-div{
-    margin-left:10px;
-    margin-right:10px;
+#mid{
+    flex-direction: column;
+    padding-top:30px;
+    padding-bottom: 30px;
 }
 
 #middle{
@@ -36,8 +18,6 @@ div{
 }
 
 #portrait{
-    width: 200px;
-    border:4px brown solid;
     margin:20px;
     display: flex;
 }
@@ -67,15 +47,6 @@ h1{
     margin-bottom:100px;
 }
 
-.noline{
-    text-decoration: none;
-    color:black;
-}
-
-img{
-    width: 300px;
-}
-
 #overview{
     background-color: #f2f2f2;
     display: flex;
@@ -95,46 +66,9 @@ img{
 
 footer{
     background-color: white;
-    margin-left:10px;
-    margin-right:10px;
-    padding:10px;
-    text-align:center;
 }
 
 @media(max-width:1030px){
-    body{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #header #logo a{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    #logo img{
-        width:75%;
-    }
-    
-    #nav{
-        margin:0px;
-    }
-
-    #nav div{
-        font-size:25%;
-        text-align: center;
-        font-weight: bold;
-        margin:5px;
-    }
-
     #middle{
         background-color: #f2f2f2;
         display:flex;
@@ -146,7 +80,6 @@ footer{
     }
 
     h1{
-        font-size: 30px;
         margin-bottom:50px;
     }
 
@@ -163,11 +96,5 @@ footer{
 
     #portrait{
         width:150px;
-    }
-
-    footer{
-        display: flex;
-        flex-direction: column;
-        font-size: 50%;
     }
 }
