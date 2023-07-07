@@ -1,4 +1,22 @@
 let projects=[
+    demo={
+        picture:"demo_day",
+        name: "Demo Day Project: Weather TO-GO",
+        date:"August 2022",
+        authors:[
+            "Rahsun Komatsuzaki-Fields",
+            "Rasul Mohammad",
+            "Fahim Muntasir",
+            "Michael Tejada"
+        ],
+        desc:[
+            "A website Weather-TO-GO is an application designed to give users information about the weather conditions in various times and the current air quality.",
+            "As the world’s environment continues to deteriorate, this application helps users prepare for the modern unpredictable climate while also raising awareness of climate change.",
+            "Created using HTML, CSS, and JavaScript"
+        ],
+        website:"demo_day_project/home.html",
+        status:"Completed"
+    },
     p5={
         picture:"p5",
         name: "p5.js 2-player Game",
@@ -17,24 +35,6 @@ let projects=[
         ],
         website:"p5Project",
         status:"Completed"
-    },
-    demo={
-        picture:"demo_day",
-        name: "Demo Day Project: Weather TO-GO",
-        date:"August 2022",
-        authors:[
-            "Rahsun Komatsuzaki-Fields",
-            "Rasul Mohammad",
-            "Fahim Muntasir",
-            "Michael Tejada"
-        ],
-        desc:[
-            "A website Weather-TO-GO is an application designed to give users information about the weather conditions in various times and the current air quality.",
-            "As the world’s environment continues to deteriorate, this application helps users prepare for the modern unpredictable climate while also raising awareness of climate change.",
-            "Created using HTML, CSS, and JavaScript"
-        ],
-        website:"demo_day_project/home.html",
-        status:"Completed"
     }
 ]
 
@@ -46,10 +46,10 @@ let grades=[
         grade:1530+" (EBRW: 730, Math: 800)",
         status:"Completed"
     },
-    calcAB={
-        picture:"APCalcAB",
-        name:"AP Calculus AB",
-        date:"May 2022",
+    csa={
+        picture:"APCSA",
+        name:"AP Computer Science A",
+        date:"May 2023",
         grade:5,
         status:"Completed"
     },
@@ -60,10 +60,38 @@ let grades=[
         grade:5,
         status:"Completed"
     },
+    calcBC={
+        picture:"APCalcBC",
+        name:"AP Calculus BC",
+        date:"May 2023",
+        grade:5+" (AB Subscore: 5)",
+        status:"Completed"
+    },
+    calcAB={
+        picture:"APCalcAB",
+        name:"AP Calculus AB",
+        date:"May 2022",
+        grade:5,
+        status:"Completed"
+    },
+    phys={
+        picture:"APPhysCMech",
+        name:"AP Physics C: Mechanics",
+        date:"May 2023",
+        grade:5,
+        status:"Completed"
+    },
     chem={
         picture:"APChem",
         name:"AP Chemistry",
         date:"May 2022",
+        grade:5,
+        status:"Completed"
+    },
+    lit={
+        picture:"APEngLit",
+        name:"AP English Literature & Composition",
+        date:"May 2023",
         grade:5,
         status:"Completed"
     },
@@ -80,38 +108,35 @@ let grades=[
         date:"May 2022",
         grade:5,
         status:"Completed"
-    },
-    calcBC={
-        picture:"APCalcBC",
-        name:"AP Calculus BC",
-        date:"May 2023",
-        grade:5,
-        status:"Completed"
-    },
-    csa={
-        picture:"APCSA",
-        name:"AP Computer Science A",
-        date:"May 2023",
-        grade:5,
-        status:"Completed"
-    },
-    phys={
-        picture:"APPhysCMech",
-        name:"AP Physics C: Mechanics",
-        date:"May 2023",
-        grade:5,
-        status:"Completed"
-    },
-    lit={
-        picture:"APEngLit",
-        name:"AP English Literature & Composition",
-        date:"May 2023",
-        grade:5,
-        status:"Completed"
-    },
+    }
 ]
 
 let awards=[
+    advDiploma={
+        picture:"na",
+        name:"Advanced Regents Diploma with Honors and Mastery in Mathematics and Science + Community Service Seal",
+        date:"June 2023",
+        level:"Regional",
+        desc:[
+            "New York City High School Diploma awarded after acquiring at least 44 credits and achieving at least a 90 average across all Regents exams ",
+            "taken in the subjects of English, mathematics, science, social studies, and world language, alongside achieving an 85 or higher on all ",
+            "math and science Regents exams, in addition to completing at least 100 hours of community service during high school."
+        ]
+    },
+    salutatorian={
+        picture:"na",
+        name:"Salutatorian",
+        date:"May 2023",
+        level:"School",
+        desc:["Distinction awarded to the student with the 2nd highest cumulative GPA of Scholars’ Academy High School."]
+    },
+    mathExcellence={
+        picture:"na",
+        name:"Academic Excellence in Mathematics (PENDING)",
+        date:"June 2023",
+        level:"School",
+        desc:["PENDING"]
+    },
     natMerit={
         picture:"nationalMerit",
         name:"National Merit Letter of Commendation",
@@ -154,13 +179,6 @@ let awards=[
             "(Cooperation, Hard Work & Honesty, Amiability, Respect. Grit & Growth Mindset, Equity & Empathy)."
         ]
     },
-    honorRoll={
-        picture:"honorRoll",
-        name:"Honor Roll: Principal's List",
-        date:"November 2019 - June 2023",
-        level:"School",
-        desc:["Local award granted by Scholars' Academy to students who complete a marking period (1/2 of a semester) with a 98 or above weighted average."]
-    },
     NHS={
         picture:"NHS",
         name:"National Honor Society",
@@ -171,12 +189,12 @@ let awards=[
             "and demonstrated outstanding behavior based on their leadership, character, service, and citizenship."
         ]
     },
-    kenyo={
-        picture:"kenyo",
-        name:"Master Taganashi's Martial Arts Institute: American-Te Goju-Ryu Kenyo Certificate",
-        date:"February 2020",
-        level:"Regional",
-        desc:["Given to those recognized for humble spirit in fast-learning, skilled beginners."]
+    honorRoll={
+        picture:"honorRoll",
+        name:"Honor Roll: Principal's List",
+        date:"November 2019 - June 2023",
+        level:"School",
+        desc:["Local award granted by Scholars' Academy to students who complete a marking period (1/2 of a semester) with a 98 or above weighted average."]
     },
     blueBelt={
         picture:"blueBeltRank",
@@ -186,6 +204,12 @@ let awards=[
         desc:["Awarded on Sunday, February 16, 2020 for attaining the rank of blue belt (5th kyu) of American-Te Goju-Ryu",
         "from the examination of kata and technical skills."
         ]
+    },
+    kenyo={
+        picture:"kenyo",
+        name:"Master Taganashi's Martial Arts Institute: American-Te Goju-Ryu Kenyo Certificate",
+        date:"February 2020",
+        level:"Regional",
+        desc:["Given to those recognized for humble spirit in fast-learning, skilled beginners."]
     }
-
 ]
