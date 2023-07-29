@@ -113,7 +113,7 @@ let grades=[
 
 let awards=[
     advDiploma={
-        picture:"na",
+        picture:"highSchoolDiploma",
         name:"Advanced Regents Diploma with Honors and Mastery in Mathematics and Science + Community Service Seal",
         date:"June 2023",
         level:"Regional",
@@ -124,22 +124,22 @@ let awards=[
         ]
     },
     salutatorian={
-        picture:"na",
+        picture:"salutatorian",
         name:"Salutatorian",
         date:"May 2023",
         level:"School",
-        desc:["Distinction awarded to the student with the 2nd highest cumulative GPA of Scholars’ Academy High School."]
+        desc:["Distinction awarded to the student with the 2nd highest cumulative GPA of Scholars’ Academy High School and for exceptional academic achievement."]
     },
     mathExcellence={
-        picture:"na",
-        name:"Academic Excellence in Mathematics (PENDING)",
+        picture:"academicExcellenceMathematics",
+        name:"Academic Excellence Mathematics",
         date:"June 2023",
         level:"School",
-        desc:["PENDING"]
+        desc:["In recognition of exceptional academic achievement in mathematics."]
     },
     natMerit={
         picture:"nationalMerit",
-        name:"National Merit Letter of Commendation",
+        name:"National Merit Commended Scholar",
         date:"September 2022",
         level:"National",
         desc:["Recognition awarded to people who scored among the top 50,000 of PSAT test takers nationwide."]
@@ -155,7 +155,7 @@ let awards=[
         ]
     },
     APScholar={
-        picture:"APScholar",
+        picture:"apScholarWithDistinction",
         name:"AP Scholar with Distinction",
         date:"July 2022",
         level:"National",
