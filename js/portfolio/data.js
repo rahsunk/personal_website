@@ -38,79 +38,6 @@ let projects=[
     }
 ]
 
-let grades=[
-    SAT={
-        picture:"sat",
-        name:"SAT",
-        date:"November 2022",
-        grade:1530+" (EBRW: 730, Math: 800)",
-        status:"Completed"
-    },
-    csa={
-        picture:"APCSA",
-        name:"AP Computer Science A",
-        date:"May 2023",
-        grade:5,
-        status:"Completed"
-    },
-    csp={
-        picture:"APCSP",
-        name:"AP Computer Science Principles",
-        date:"May 2022",
-        grade:5,
-        status:"Completed"
-    },
-    calcBC={
-        picture:"APCalcBC",
-        name:"AP Calculus BC",
-        date:"May 2023",
-        grade:5+" (AB Subscore: 5)",
-        status:"Completed"
-    },
-    calcAB={
-        picture:"APCalcAB",
-        name:"AP Calculus AB",
-        date:"May 2022",
-        grade:5,
-        status:"Completed"
-    },
-    phys={
-        picture:"APPhysCMech",
-        name:"AP Physics C: Mechanics",
-        date:"May 2023",
-        grade:5,
-        status:"Completed"
-    },
-    chem={
-        picture:"APChem",
-        name:"AP Chemistry",
-        date:"May 2022",
-        grade:5,
-        status:"Completed"
-    },
-    lit={
-        picture:"APEngLit",
-        name:"AP English Literature & Composition",
-        date:"May 2023",
-        grade:5,
-        status:"Completed"
-    },
-    lang={
-        picture:"APEngLang",
-        name:"AP English Language & Composition",
-        date:"May 2022",
-        grade:5,
-        status:"Completed"
-    },
-    world={
-        picture:"APWorld",
-        name:"AP World History: Modern",
-        date:"May 2022",
-        grade:5,
-        status:"Completed"
-    }
-]
-
 let awards=[
     advDiploma={
         picture:"highSchoolDiploma",
@@ -211,5 +138,78 @@ let awards=[
         date:"February 2020",
         level:"Regional",
         desc:["Given to those recognized for humble spirit in fast-learning, skilled beginners."]
+    }
+]
+
+let grades=[
+    SAT={
+        picture:"sat",
+        name:"SAT",
+        date:"November 2022",
+        grade:1530+" (EBRW: 730, Math: 800)",
+        status:"Completed"
+    },
+    csa={
+        picture:"APCSA",
+        name:"AP Computer Science A",
+        date:"May 2023",
+        grade:5,
+        status:"Completed"
+    },
+    csp={
+        picture:"APCSP",
+        name:"AP Computer Science Principles",
+        date:"May 2022",
+        grade:5,
+        status:"Completed"
+    },
+    calcBC={
+        picture:"APCalcBC",
+        name:"AP Calculus BC",
+        date:"May 2023",
+        grade:5+" (AB Subscore: 5)",
+        status:"Completed"
+    },
+    calcAB={
+        picture:"APCalcAB",
+        name:"AP Calculus AB",
+        date:"May 2022",
+        grade:5,
+        status:"Completed"
+    },
+    phys={
+        picture:"APPhysCMech",
+        name:"AP Physics C: Mechanics",
+        date:"May 2023",
+        grade:5,
+        status:"Completed"
+    },
+    chem={
+        picture:"APChem",
+        name:"AP Chemistry",
+        date:"May 2022",
+        grade:5,
+        status:"Completed"
+    },
+    lit={
+        picture:"APEngLit",
+        name:"AP English Literature & Composition",
+        date:"May 2023",
+        grade:5,
+        status:"Completed"
+    },
+    lang={
+        picture:"APEngLang",
+        name:"AP English Language & Composition",
+        date:"May 2022",
+        grade:5,
+        status:"Completed"
+    },
+    world={
+        picture:"APWorld",
+        name:"AP World History: Modern",
+        date:"May 2022",
+        grade:5,
+        status:"Completed"
     }
 ]
